@@ -21,4 +21,4 @@ jobs:
             @semantic-release/changelog
             @semantic-release/git
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  ### Use the GH_TOKEN for authentication
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  #### Use the GH_TOKEN for authentication
